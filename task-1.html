@@ -1,0 +1,285 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Web Development Basics</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fdf6f0;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #4B0082;
+      color: white;
+      padding: 2rem 0;
+      text-align: center;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      padding: 1rem 0;
+      background-color: #008080;
+    }
+
+    nav ul li {
+      margin: 0 20px;
+    }
+
+    nav ul li a {
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #ffebcd;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 20px;
+      text-align: center;
+    }
+
+    p {
+      background-color: #f0eaff;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 2rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    img {
+      width: 500px;
+    }
+
+    button {
+      background-color: #4B0082;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1rem;
+      font-weight: bold;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    button:hover {
+      background-color: #d8b4ff;
+      color: #000;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #008080;
+      color: white;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Web Development</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <p>
+      This heading emphasizes the company’s commitment to innovation and highlights its expertise in delivering advanced software solutions. It portrays Apexplanet Software Pvt. Ltd. as a forward-thinking and reliable partner in the tech industry.
+    </p>
+
+    <a href="https://apexplanet.in/" target="_blank">
+      <img src="apex.jpg" alt="Apexplanet Logo" />
+    </a>
+
+    <br />
+
+    <button onclick="showMessage()">Click Me</button>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Apexplanet Software Pvt. Ltd. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function showMessage() {
+      alert("✅ Task Completed: You clicked the button!");
+    }
+  </script>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Task 1 - Web Development</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Body Styling */
+    body {
+      font-family: 'Georgia', serif;
+      background-color: #fdfaf6;
+      color: #2e2e2e;
+      line-height: 1.7;
+      padding-bottom: 40px;
+    }
+
+    header {
+      background-color: #4a3f35;
+      color: #fff;
+      text-align: center;
+      padding: 2rem;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    nav {
+      background-color: #7b5e57;
+      padding: 1rem 0;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #ffe8d6;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 20px;
+      text-align: center;
+    }
+
+    p.description {
+      background-color: #fff8f1;
+      padding: 20px;
+      border: 1px solid #e0cfc2;
+      border-radius: 12px;
+      margin-bottom: 2rem;
+      font-size: 1.1rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+      margin-top: 1rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    button {
+      margin-top: 2rem;
+      background-color: #4a3f35;
+      color: #fff;
+      border: none;
+      padding: 12px 24px;
+      font-size: 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      font-family: 'Verdana', sans-serif;
+    }
+
+    button:hover {
+      background-color: #7b5e57;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.2rem;
+      background-color: #4a3f35;
+      color: white;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Web Development</h1>
+    <p>Learn HTML, CSS, and JavaScript Basics</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <p class="description">
+      Apexplanet Software Pvt. Ltd. is a trusted name in providing high-quality software solutions. 
+      This basic webpage introduces the core principles of HTML for structure, CSS for styling, and JavaScript for interactivity.
+    </p>
+
+    <a href="https://apexplanet.in/" target="_blank">
+      <img src="logo.png" alt="Apexplanet Logo" />
+    </a>
+
+    <br />
+
+    <button onclick="showMessage()">Click Me</button>
+  </main>
+
+  <footer>
+    &copy; 2025 Apexplanet Software Pvt. Ltd. | All Rights Reserved.
+  </footer>
+
+  <script>
+    function showMessage() {
+      alert("✅ Great! You completed Task 1 successfully.");
+    }
+  </script>
+</body>
+</html>
